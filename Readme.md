@@ -1,9 +1,17 @@
-## **Description**
+## **Problem Description**
 
 1). Write a REST service in Java which takes a language as input (e.g. rust, go, java, etc.) and provides a JSON output,
     listing all the projects that are using that language in GitHub
     
 2). The output shall contain the project id, name, url and the owner login
+
+---
+
+## **Solution & Approach**
+
+1). REST Client implemented using Spring Boot to consume GitHub exposed Search API (https://docs.github.com/en/rest/reference/search#search-repositories) <br/>
+2). Swagger Used for the API documentation (Refer the Important Links section in the last) <br/>
+3). Heroku used for Cloud Deployment (Refer the Important Links section in the last) <br/>
 
 ---
 
