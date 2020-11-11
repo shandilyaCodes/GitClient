@@ -1,0 +1,55 @@
+* Write a REST service in Java which takes a language as input (e.g. rust, go, ) and provides a JSON output,
+  listing all the projects that are using that language in GitHub
+
+* The output must contain only project id, name, url and the owner login
+
+https://api.github.com/search/repositories?q=language:java
+https://api.github.com/search/repositories?q=language:java
+
+403 -> Rate Limit Exceeded -> 500 Internal Server Error
+
+https://api.github.com/rate_limit -> Provides the rate limit details
+
+{
+    id
+    url
+    name
+    ownerLogin
+}
+
+Enhancements {
+    * Support Refined Search
+
+}
+
+?q=user:shandilyaCodes&language:java&sort=stars&order=desc
+
+Search Functionality {
+    * Normal Search
+    * user Based Search
+    * Sorting {
+        * stars
+        * forks
+        * help-wanted-issues
+        * updated
+    }
+    * order	{
+        * asc
+        * desc
+    }
+}
+
+//        * stars
+//        * forks
+//        * help-wanted-issues
+//        * updated
+
+localhost:8080/v1/search/project/language/java/1
+localhost:8080/v1/search/project/user/shandilyaCodes/java
+localhost:8080/v1/search/project/sorted/java/1/stars/asc
+localhost:8080/v1/search/project/sorted/java/1/stars/desc
+
+
+http://localhost:8080/swagger-ui/index.html#/
+
+RestTemplate configuration
