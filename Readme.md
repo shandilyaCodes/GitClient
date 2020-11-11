@@ -13,14 +13,14 @@
 ### **Find Projects By Language Name**
 
 ---
-URL Structure : localhost:8080/v1/search/project/language/{languageName}/{pageNumber}
+URL Structure : localhost:8080/v1/search/project/language/{languageName}/{pageNumber}<br />
 
-Parameter Details : {
-                        (String) languageName : Valid Language Name like Java, Go, Javascript etc.
-                        (Long) pageNumber : Valid page number 1,2,3,4, etc.
-                    }
+Parameter Details : {<br />
+                        (String) languageName : Valid Language Name like Java, Go, Javascript etc.<br />
+                        (Long) pageNumber : Valid page number 1,2,3,4, etc.<br />
+                    }<br />
 
-URL Sample : localhost:8080/v1/search/project/language/java/1
+URL Sample : localhost:8080/v1/search/project/language/java/1<br />
 
 ---
 ### **Find Projects By Language and UserName**
