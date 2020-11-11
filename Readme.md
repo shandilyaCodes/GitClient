@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/shandilyaCodes/GitClient.svg?style=svg&circle-token=f0d69b6ca4e3b0780e64ee019792b6b57a6080f1)](<LINK>)
+[![CircleCI](https://circleci.com/gh/shandilyaCodes/GitClient.svg?style=shield&circle-token=f0d69b6ca4e3b0780e64ee019792b6b57a6080f1)](<LINK>)
 
 
 ## **Problem Description**
