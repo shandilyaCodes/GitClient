@@ -26,43 +26,43 @@ URL Sample : localhost:8080/v1/search/project/language/java/1
 ### **Find Projects By Language and UserName**
 
 ---
-URL Structure : localhost:8080/v1/search/project/user/{userName}/{languageName}
+URL Structure : localhost:8080/v1/search/project/user/{userName}/{languageName} <br />
 
-Parameter Details : {
-                        (String) userName : Valid Github username 
-                        (String) languageName : Valid Language Name
-                    }
+Parameter Details : {<br />
+                        (String) userName : Valid Github username <br />
+                        (String) languageName : Valid Language Name<br />
+                    }<br />
 
-URL Sample : localhost:8080/v1/search/project/user/shandilyaCodes/java
+URL Sample : localhost:8080/v1/search/project/user/shandilyaCodes/java<br />
 
 ---
 ### **Find Projects By Language and sort**
 
 ---
-URL Structure : localhost:8080/v1/search/project/sorted/{languageName}/{pageNumber}/{sortingParameter}/{sortingStyle}
+URL Structure : localhost:8080/v1/search/project/sorted/{languageName}/{pageNumber}/{sortingParameter}/{sortingStyle}<br />
 
-Parameter Details : {
-                        (String) languageName : Valid Language Name
-                        (Long) pageNumber : Valid page number 1,2,3,4, etc.
-                        (String) sortingParameter : Possible values {stars, forks, help-wanted-issues, updated}
-                        (String) sortingStyle : Possible values {asc, desc}
-                    }
+Parameter Details : {<br />
+                        (String) languageName : Valid Language Name<br />
+                        (Long) pageNumber : Valid page number 1,2,3,4, etc.<br />
+                        (String) sortingParameter : Possible values {stars, forks, help-wanted-issues, updated}<br />
+                        (String) sortingStyle : Possible values {asc, desc}<br />
+                    }<br />
                     
-URL Sample : localhost:8080/v1/search/project/sorted/java/1/stars/asc
+URL Sample : localhost:8080/v1/search/project/sorted/java/1/stars/asc<br />
 
 ---
 ### **Instructions to Run the application**
 
 ---
--> Clone the repository
--> Navigate to the root folder in a terminal
--> Run the command "mvn spring-boot:run"
--> Once the initialization is completed, access the required REST APIs 
+-> Clone the repository<br />
+-> Navigate to the root folder in a terminal<br />
+-> Run the command "mvn spring-boot:run"<br />
+-> Once the initialization is completed, access the required REST APIs <br />
 
 ---
 ### **Important Links**
 
 ---
-Swagger API documentation : http://localhost:8080/swagger-ui/index.html#/
+Swagger API documentation : http://localhost:8080/swagger-ui/index.html#/<br />
 
 ---
