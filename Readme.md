@@ -54,10 +54,11 @@ URL Sample : localhost:8080/v1/search/project/sorted/java/1/stars/asc
 ### **Instructions to Run the application**
 
 ---
-1). Clone the repository
-2). Navigate to the root folder in a terminal
-3). Run the command "mvn spring-boot:run"
-4). Once the initialization is completed, access the required REST APIs 
+-> Clone the repository
+-> Navigate to the root folder in a terminal
+-> Run the command "mvn spring-boot:run"
+-> Once the initialization is completed, access the required REST APIs 
+
 ---
 ### **Important Links**
 
