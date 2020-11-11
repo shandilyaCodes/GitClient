@@ -64,5 +64,11 @@ URL Sample : localhost:8080/v1/search/project/sorted/java/1/stars/asc<br />
 
 ---
 Swagger API documentation : http://localhost:8080/swagger-ui/index.html#/<br />
+Heroku Deployed API Links : { <br />
+https://infa-git-client.herokuapp.com/v1/search/project/language/java/10 <br/>
+https://infa-git-client.herokuapp.com/v1/search/project/user/shandilyaCodes/java <br/>
+https://infa-git-client.herokuapp.com/v1/search/project/sorted/java/1/stars/desc <br/>
+https://infa-git-client.herokuapp.com/v1/search/project/sorted/java/1/forks/asc <br/>
+}<br />
 
 ---
