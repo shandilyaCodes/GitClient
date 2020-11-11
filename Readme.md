@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/github/shandilyaCodes/GitClient.svg?style=svg&circle-token=f0d69b6ca4e3b0780e64ee019792b6b57a6080f1)](<LINK>)
+
+
 ## **Problem Description**
 
 1). Write a REST service in Java which takes a language as input (e.g. rust, go, java, etc.) and provides a JSON output,
